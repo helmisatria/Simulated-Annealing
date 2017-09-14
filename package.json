@@ -1,0 +1,19 @@
+{
+  "name": "ai-tugas-program-1",
+  "version": "1.0.0",
+  "description": "Cari nilai minimum dari suatu fungsi menggunakan simulated annealing",
+  "main": "tupro1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helmisatria/AI-tugas-program-1.git"
+  },
+  "author": "Helmi Satria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helmisatria/AI-tugas-program-1/issues"
+  },
+  "homepage": "https://github.com/helmisatria/AI-tugas-program-1#readme"
+}
