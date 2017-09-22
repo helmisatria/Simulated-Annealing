@@ -31,8 +31,8 @@ let loopCount = 100
 while (TempMax > TempMin) {
   let i = 1
   while (i <= loopCount) {
-    newx1 = x1 + randomNeighbor(1, -1)
-    newx2 = x2 + randomNeighbor(1, -1)
+    newx1 = x1 + randomNeighbor(10, -10)
+    newx2 = x2 + randomNeighbor(10, -10)
     newcost = hitungCost(newx1, newx2)
     let ap = acceptanceProbability(oldcost, newcost, TempMax)
     if (ap > Math.random()) {
@@ -45,6 +45,7 @@ while (TempMax > TempMin) {
   TempMax = TempMax * alpha
 }
 
+// oldcost = -2
 let akurasi = () => {
   let FR = -1.03163
   // let FR = 1.5
