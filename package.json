@@ -4,6 +4,7 @@
   "description": "Cari nilai minimum dari suatu fungsi menggunakan simulated annealing",
   "main": "tupro1.js",
   "scripts": {
+    "start": "node tupro1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
