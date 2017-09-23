@@ -4,5 +4,5 @@ Prerequisite:
   * Node js installed
 
 Run:
-  1. npm start or
-  2. node tupro1.js
+  ``npm start`` or 
+  ``node tupro1.js ``
