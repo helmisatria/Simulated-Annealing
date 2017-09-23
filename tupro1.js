@@ -20,12 +20,12 @@ let cost = hitungCost(x1, x2)
 let TempMax = 1.0
 let TempMin = 0.000001
 let alpha = 0.99
-let loopCount = 1000 //makin besar iterasi makin optimal pencarian nilai minimumnya
+let loopCount = 18000 //makin besar iterasi makin optimal pencarian nilai minimumnya
 while (TempMax > TempMin) {
   let i = 1
   while (i <= loopCount) {
-    newx1 = x1 + randomNeighbor(10, -10)
-    newx2 = x2 + randomNeighbor(10, -10)
+    newx1 = randomNeighbor(10, -10)
+    newx2 = randomNeighbor(10, -10)
     newcost = hitungCost(newx1, newx2)
     let ap = acceptanceProbability(cost, newcost, TempMax)
     if (ap > Math.random()) {
@@ -52,5 +52,5 @@ console.log(JSON.stringify({
   newx1, newx2,
   newcost,
   cost,
-  akurasi: akurasi(),
+  // akurasi: akurasi(),
 }, null, 2))
